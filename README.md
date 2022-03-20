@@ -1,4 +1,4 @@
-# A simple Counter App using React.js
+# A simple and responsive Counter App using React.js
 ## [Live Site](https://bobby-coder.github.io/Counter-App/)
 ![Live-Site-Screenshot](public/LiveSiteScreenshot.png)
 ## Introduction
