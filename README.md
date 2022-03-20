@@ -1,5 +1,6 @@
 # A simple Counter-App using React.js
 ## [Live Site](https://bobby-coder.github.io/Counter-App/)
+![Live-Site-Screenshot](public/LiveSiteScreenshot.png)
 ## Introduction
 
 This is a very basic app but useful to understand the React Components, states, Data Flow, etc, .
