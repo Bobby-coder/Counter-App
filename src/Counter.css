@@ -61,6 +61,7 @@ counter , p{
 @media screen and (max-width: 400px){
     .counter{
         width: 90vw;
+        height: 80vh;
     }
 
     counter , p{
@@ -77,6 +78,7 @@ counter , p{
 @media screen and (min-width: 400px) and (max-width: 520px){
     .counter{
         width: 90vw;
+        height: 80vh;
     }
 
     counter , p{
