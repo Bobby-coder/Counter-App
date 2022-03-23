@@ -10,8 +10,8 @@ This is a code repository for the Counter app.
 To run the application locally, clone the repo, install dependencies and run the app.
 
 ```
-$ git clone https://github.com/Bobby-coder/Amazon-Clone.git
-$ cd amazon-clone
+$ git clone https://github.com/Bobby-coder/Counter-app.git
+$ cd Counter-app
 $ npm start
 ```
 
