@@ -16,19 +16,17 @@ const Counter = () => {
 
     return (
         <>
-            <div className='container'>
-                <div className='counter'>
-                    <h1>COUNTER</h1>
-                    <p>{num}</p>
-                    <button className='reset' onClick={resetNum}>RESET</button>
-                    <div className='hundred'>
-                        <button className='plusMinus100' id='minus100' onClick={minusHundred}>- 100</button>
-                        <button className='plusMinus100' id='plus100' onClick={plusHundred}>+ 100</button>
-                    </div>
-                    <div className='buttons'>
-                        <button className='plusMinus' id='minus' onClick={decreaseNum}>-</button>
-                        <button className='plusMinus' id='plus' onClick={increaseNum}>+</button>
-                    </div>
+            <div className='counter'>
+                <h1>COUNTER</h1>
+                <p>{num}</p>
+                <button className='reset' onClick={resetNum}>RESET</button>
+                <div className='hundred'>
+                    <button className='plusMinus100' id='minus100' onClick={minusHundred}>- 100</button>
+                    <button className='plusMinus100' id='plus100' onClick={plusHundred}>+ 100</button>
+                </div>
+                <div className='buttons'>
+                    <button className='plusMinus' id='minus' onClick={decreaseNum}>-</button>
+                    <button className='plusMinus' id='plus' onClick={increaseNum}>+</button>
                 </div>
             </div>
         </>
