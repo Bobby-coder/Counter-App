@@ -1,13 +1,12 @@
 .counter{
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
-    justify-content: space-evenly;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 
 counter , p{
@@ -17,6 +16,10 @@ counter , p{
 .reset{
     border: none;
     background-color: white;
+}
+
+.hundred{
+    margin: 10px 0;
 }
 
 .plusMinus100{
@@ -52,11 +55,11 @@ counter , p{
 }
 
 @media screen and (max-width: 400px){
-    .counter{
-        width: 90vw;
-        height: 70vh;
-    }
 
+    .counter{
+        margin-top: 50%;
+    }
+    
     counter , p{
         font-size: 50px;
     }
@@ -68,11 +71,11 @@ counter , p{
 }
 
 @media screen and (min-width: 400px) and (max-width: 520px){
-    .counter{
-        width: 90vw;
-        height: 70vh;
-    }
 
+    .counter{
+        margin-top: 40%;
+    }
+    
     counter , p{
         font-size: 70px;
     }
