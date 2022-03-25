@@ -4,8 +4,4 @@
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-}
+
